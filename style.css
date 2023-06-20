@@ -18,7 +18,7 @@
     left: 0;
     bottom: 0;
     z-index: 10;
-    animation: moving 3s linear infinite 1s;
+    animation: moving 15s linear infinite 3s;
 }
 
 @keyframes moving {
@@ -34,22 +34,38 @@
     width: 200vw;
     display: flex;
     z-index: 5;
-    animation: moving 3s linear infinite 1s;
+    animation: moving 5s linear infinite 1s;
 }
 .trees img {
     width: 100vw;
     height: 80vh;
 }
 
-.car-body {
-    height: 130px;
+.balia-body {
+    height: 530px;
     position: absolute;
-    left: 25vw;
+    left: 45vw;
     bottom: 10vh;
     z-index: 20;
 }
 
-.wheel-1 {
+.subhadra-body {
+    height: 530px;
+    position: absolute;
+    left: 31vw;
+    bottom: 10vh;
+    z-index: 20;
+}
+
+.jaga-body {
+    height: 530px;
+    position: absolute;
+    left: 17vw;
+    bottom: 10vh;
+    z-index: 20;
+}
+
+/* .wheel-1 {
     height: 70px;
     position: absolute;
     left: 420px;
@@ -65,7 +81,7 @@
     top: 573px;
     z-index: 30;
     animation:  rotate 0.3s linear infinite 1s;
-}
+} */
 
 @keyframes rotate {
     100% {
